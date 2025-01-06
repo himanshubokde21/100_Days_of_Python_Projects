@@ -1,0 +1,6 @@
+ex = input("Expression: ")
+try:
+  ans = eval(ex)
+  print("Ans: ", ans)
+except:
+  print("Wrong Expression!")
